@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Abel', sans-serif; */
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
 html, body{
+    font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
 }
 .circle {
@@ -13,7 +24,6 @@ html, body{
     border: white 10px solid;
     margin-left:auto;
     margin-right:auto;
-    padding: 0 0 0 10px;
 }
 
 .circle2 {
