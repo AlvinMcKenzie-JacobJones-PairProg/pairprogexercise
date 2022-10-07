@@ -55,7 +55,7 @@ html, body{
 .four-circles{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -64,10 +64,26 @@ html, body{
     height: 0;
 }
 
-/*.hide-when-big{*/
-/*    @media display and(min-width:500px){*/
-/*        #four-circles{*/
+.secretLine{
+    display: none;
+}
 
-/*        }*/
+/*@media display and(min-width:375px){*/
+/*    .secretLine{*/
+/*        display: inline;*/
 /*    }*/
 /*}*/
+
+@media only screen and (min-width: 375px) {
+    .secretLine{
+        display: block;
+    }
+
+    .four-circles{
+        justify-content: space-evenly;
+    }
+
+
+
+
+}
