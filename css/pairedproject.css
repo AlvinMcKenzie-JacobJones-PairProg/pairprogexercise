@@ -38,6 +38,26 @@ html, body{
     margin-left:5px;
 }
 
+.card-body{
+    display: flex;
+    justify-content: flex-end;
+    height: 15px;
+    background-color: #f0f0f0;
+}
+.card-body>p{
+    margin-right: auto;
+    /*align-content: center;*/
+    align-self: flex-start;
+}
+
+.card>img{
+    border: 8px solid #e6e6e6;
+}
+
+.card{
+    border: none;
+}
+
 .row{
     --bs-gutter-x: 0rem;
 }
