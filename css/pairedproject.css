@@ -1,5 +1,5 @@
 html, body{
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
 }
 .circle {
     height: 105px;
@@ -25,12 +25,20 @@ html, body{
     display:flex;
     justify-content: center;
     align-items: center;
-    /*border: white 10px solid;*/
-    /*margin-left:auto;*/
-    /*margin-right:auto;*/
-    /*padding: 0 0 0 10px;*/
+    justify-self: flex-end;
+    margin-left:5px;
 }
 
 .row{
     --bs-gutter-x: 0rem;
+}
+
+.Footer{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.Footer > p {
+    flex-basis:30%;
+    flex-grow:1;
 }
