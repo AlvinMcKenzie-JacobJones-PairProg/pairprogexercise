@@ -45,9 +45,13 @@ html, body{
     background-color: #f0f0f0;
 }
 .card-body>p{
+    margin-top:-10px;
     margin-right: auto;
-    /*align-content: center;*/
     align-self: flex-start;
+}
+
+.card-body>.circle2{
+    margin-top:-10px;
 }
 
 .card>img{
@@ -56,21 +60,12 @@ html, body{
 
 .card{
     border: none;
+    width:100%
 }
 
 .row{
     --bs-gutter-x: 0rem;
 }
-
-/*.Footer{*/
-/*    display:flex;*/
-/*    justify-content: flex-start;*/
-/*}*/
-
-/*.Footer > p {*/
-/*    flex-basis:30%;*/
-/*    flex-grow:1;*/
-/*}*/
 
 .four-circles{
     display: flex;
@@ -88,11 +83,6 @@ html, body{
     display: none;
 }
 
-/*@media display and(min-width:375px){*/
-/*    .secretLine{*/
-/*        display: inline;*/
-/*    }*/
-/*}*/
 
 @media only screen and (min-width: 375px) {
     .secretLine{
@@ -103,5 +93,13 @@ html, body{
         justify-content: space-evenly;
     }
 
+    .card{
+        height: 50%;
+        width: 50%
+    }
 
+    .container{
+        display:flex;
+        flex-wrap:wrap;
+    }
 }
