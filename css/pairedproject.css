@@ -150,4 +150,29 @@ html, body {
 	#ExtraLargeHiders{
 		display: block;
 	}
+	/*.four-circle-leftSide{*/
+	/*	padding-right:auto;*/
+	/*}*/
+
+	/*.four-circle-rightSide{*/
+	/*	padding-left:auto;*/
+	/*}*/
+
+
+
+	.four-circles {
+		justify-content: space-evenly;
+	}
+
+	#dev{
+		margin-right: -80px;
+	}
+
+	#des{
+		margin-right: -40px;
+	}
+
+	#hos{
+		margin-left: -40px;
+	}
 }
